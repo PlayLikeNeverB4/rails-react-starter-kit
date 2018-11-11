@@ -36,8 +36,12 @@ gem 'jbuilder', '~> 2.5'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+gem 'haml-rails'
+
 group :development do
   gem 'listen'
+  gem 'pry'
 end
 
 gem 'webpacker'
+gem 'webpacker-react'
