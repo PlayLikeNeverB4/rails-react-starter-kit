@@ -1,24 +1,7 @@
-# README
+# Installation instructions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Make sure you have yarn installed
+	1. Check with `yarn --version`
+	2. You can install it with `brew install yarn`
+2. Run `bundle exec rails webpacker:install:react`
+3. 
