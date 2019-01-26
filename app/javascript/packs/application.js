@@ -1,4 +1,5 @@
 import WebpackerReact from 'webpacker-react'
-import Hello from '../src/welcome/components/hello_react'
+import './styles'
+import HelloRoot from '../src/hello/containers/hello_root'
 
-WebpackerReact.setup({ Hello })
+WebpackerReact.setup({ HelloRoot })

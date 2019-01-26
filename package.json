@@ -5,11 +5,17 @@
     "@rails/webpacker": "3.5",
     "babel-preset-react": "^6.24.1",
     "haml-jsx-loader": "^1.0.2",
+    "lodash": "^4.17.11",
     "prop-types": "^15.6.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
+    "react-ez-components": "0.0.2",
+    "react-notifications": "^1.4.3",
     "react-redux": "^5.1.1",
     "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
     "webpacker-react": "^0.3.2"
   },
   "devDependencies": {
