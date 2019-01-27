@@ -1,14 +1,15 @@
 import { connect } from 'react-redux'
-import _ from 'lodash'
 
-import HelloComponent from '../components/hello_component'
+import PeopleComponent from '../components/people_component'
+
+import { getPeople } from '../selectors'
 
 import {
   fetchInitialData,
 } from '../actions'
 
 const mapStateToProps = state => ({
-  people: _.values(state.people),
+  people: getPeople(state),
   loadingData: state.misc.loadingData,
 })
 
@@ -19,4 +20,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(HelloComponent)
+)(PeopleComponent)

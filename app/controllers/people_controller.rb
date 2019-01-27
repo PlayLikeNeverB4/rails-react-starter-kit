@@ -1,5 +1,5 @@
 class PeopleController < ApplicationController
-  def fetch_initial_data
+  def fetch
     people_data = {
       '1': {
         id: '1',

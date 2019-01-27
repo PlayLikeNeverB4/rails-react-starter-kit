@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { NotificationContainer } from 'react-notifications'
-import { EZSelect } from 'react-ez-components'
 
-class HelloComponent extends Component {
+class PeopleComponent extends Component {
   constructor(props) {
     super(props)
   }
@@ -24,19 +22,17 @@ class HelloComponent extends Component {
           %span(class="person-name" key={ person.id })
             { person.name }
         ~))}
-        %EZSelect(items={[]})
-        %NotificationContainer
     ~)
   }
 }
 
-HelloComponent.propTypes = {
+PeopleComponent.propTypes = {
   people: PropTypes.arrayOf(PropTypes.object).isRequired,
   loadingData: PropTypes.bool.isRequired,
   fetchInitialData: PropTypes.func.isRequired,
 }
 
-HelloComponent.defaultProps = {
+PeopleComponent.defaultProps = {
 }
 
-export default HelloComponent
+export default PeopleComponent
