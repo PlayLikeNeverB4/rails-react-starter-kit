@@ -26,4 +26,3 @@ fi
 
 git add .
 git commit -m "Set up project"
-
