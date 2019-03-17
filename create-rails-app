@@ -15,6 +15,8 @@ rm -rf .git
 git init
 
 rm create-rails-app
+rm README.md
+touch README.md
 
 if [ $# > 1 ]; then
   repo_url=$2
