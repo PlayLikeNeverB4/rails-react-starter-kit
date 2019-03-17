@@ -24,4 +24,4 @@ fi
 
 git add .
 git commit -m "Set up project"
-# https://github.com/PlayLikeNeverB4/devsimulator.git
+
