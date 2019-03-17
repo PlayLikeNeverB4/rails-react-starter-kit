@@ -6,14 +6,15 @@
 
 ### Installation instructions
 
-1. Clone the repo `git clone https://github.com/PlayLikeNeverB4/rails-react-starter-kit.git myprojectname`
-2. Make sure you have node installed
+1. Make sure you have node installed
 	1. Check with `node -v`
 	2. You can install it with `brew install node` or [here](https://nodejs.org)
-3. Make sure you have yarn installed
+2. Make sure you have yarn installed
 	1. Check with `yarn -v`
 	2. You can install it with `brew install yarn`
-4. `yarn install`
+3. Run the app initialization script `curl https://raw.githubusercontent.com/PlayLikeNeverB4/rails-react-starter-kit/master/create-rails-app | bash -s my-project-name https://github.com/my-github-username/my-project.git`
+(the last argument is optional)
+
 4. `rails s` to start up the app
 5. Optionally run `./bin/webpack-dev-server` while developing.
 
