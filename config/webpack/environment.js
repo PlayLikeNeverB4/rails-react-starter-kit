@@ -5,4 +5,6 @@ environment.config.resolve.alias = {
   SharedComponents: 'shared/components',
 }
 
+environment.loaders.delete('nodeModules')
+
 module.exports = environment
