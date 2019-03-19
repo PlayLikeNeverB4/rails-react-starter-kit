@@ -18,6 +18,8 @@ rm create-rails-app
 rm README.md
 touch README.md
 
+mv config/database.sample.yml config/database.yml
+
 if [ $# > 1 ]; then
   repo_url=$2
   echo "Setting remote url to $repo_url"
@@ -25,8 +27,6 @@ if [ $# > 1 ]; then
 else
   echo "No repo url provided"
 fi
-
-mv config/database.sample.yml config/database.yml
 
 git add .
 git commit -m "Set up project"
