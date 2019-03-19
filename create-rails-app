@@ -16,7 +16,7 @@ git init
 
 rm create-rails-app
 rm README.md
-touch README.md
+mv README.sample.md README.md
 
 mv config/database.sample.yml config/database.yml
 
