@@ -26,7 +26,7 @@ else
   echo "No repo url provided"
 fi
 
+mv config/database.sample.yml config/database.yml
+
 git add .
 git commit -m "Set up project"
-
-mv config/database.sample.yml config/database.yml
