@@ -28,3 +28,5 @@ fi
 
 git add .
 git commit -m "Set up project"
+
+mv config/database.sample.yml config/database.yml
