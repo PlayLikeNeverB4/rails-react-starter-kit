@@ -16,7 +16,8 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react",
+    "react-hooks"
   ],
   "settings": {
     "react": {
@@ -103,6 +104,8 @@
       "all"
     ],
     "space-infix-ops": "error",
-    "keyword-spacing": "error"
+    "keyword-spacing": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
